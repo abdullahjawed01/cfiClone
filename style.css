@@ -115,6 +115,7 @@ img {
   justify-content: center;
   gap: 30px;
   margin-top: 30px;
+  
 }
 
 .button1,
@@ -304,6 +305,7 @@ img {
     gap: 15px;
   }
 
+
   .hero1 {
     font-size: 36px;
   }
@@ -424,32 +426,23 @@ img {
 
 .logos :nth-child(2) :nth-child(2){
   display: none;
- 
-
-  
 }
 
 .logos :nth-child(2) :nth-child(3){
   display: none;
- 
-
-  
 }
 
 
 .logos :nth-child(2) :nth-child(4){
   display: none;
-
 }
 
 .logos :nth-child(2) :nth-child(5){
   display: none;
-
 }
 
 .logos :nth-child(2) :nth-child(6){
   display: none;
-
 }
 
 .logos :nth-child(3){
