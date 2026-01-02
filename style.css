@@ -341,10 +341,20 @@ img {
     display: flex;
   }
   
-  .logos :nth-child(3){
+  /* .logos :nth-child(2){
       display: none;
   }
 
+  .logos :first-child{
+    display: none;
+  }
+
+  .logos :nth-child(3){
+      display: none;
+  } */
+
+
+/* 
   .logos-slide {
   display: inline-block;
   animation: slide 22s linear infinite;
@@ -355,7 +365,66 @@ img {
   background: rgb(249, 240, 240);
   padding: 40px 0;
   white-space: nowrap;
+} */
+
+/* @keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
+
+.logos {
+  overflow: hidden;
+  background: rgb(249, 240, 240);
+  padding: 40px 0;
+  white-space: nowrap;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: slide 15s linear infinite;
+} */
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  background: rgb(249, 240, 240);
+  padding: 40px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos-slide {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  animation: slide 15s linear infinite;
+  will-change: transform;
+}
+.logos :nth-child(2){
+  display: none;
+}
+.logos :nth-child(3){
+  display: none;
+}
+.logos :nth-child(4){
+  display: none;
+}
+
+
+
+
   
 
 }
