@@ -289,7 +289,7 @@ img {
 }
 
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .nav {
     flex-direction: row;
     height: auto;
@@ -398,7 +398,7 @@ img {
 }
 
 .logos {
-  overflow: hidden;
+  overflow:hidden;
   background: rgb(249, 240, 240);
   padding: 40px 0;
   white-space: nowrap;
@@ -412,19 +412,51 @@ img {
   animation: slide 15s linear infinite;
   will-change: transform;
 }
-.logos :nth-child(2){
-  display: none;
+
+.logos :first-child{
+  display: inline-block;
 }
+
+.logos :nth-child(2) :nth-child(1){
+  display: none;
+
+}
+
+.logos :nth-child(2) :nth-child(2){
+  display: none;
+ 
+
+  
+}
+
+.logos :nth-child(2) :nth-child(3){
+  display: none;
+ 
+
+  
+}
+
+
+.logos :nth-child(2) :nth-child(4){
+  display: none;
+
+}
+
+.logos :nth-child(2) :nth-child(5){
+  display: none;
+
+}
+
+.logos :nth-child(2) :nth-child(6){
+  display: none;
+
+}
+
 .logos :nth-child(3){
   display: none;
 }
 .logos :nth-child(4){
   display: none;
 }
-
-
-
-
-  
 
 }
